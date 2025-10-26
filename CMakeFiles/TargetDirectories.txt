@@ -1,0 +1,6 @@
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/stm32_template.dir
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/bin.dir
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/hex.dir
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/flash.dir
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/edit_cache.dir
+/Users/pavelsokolov/stm32_pm2025/CMakeFiles/rebuild_cache.dir

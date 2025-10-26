@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/pavelsokolov/stm32_pm2025/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

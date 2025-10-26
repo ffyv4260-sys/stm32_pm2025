@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 
 # Disable compiler checking
 # Otherwise it will fall with `reference to _exit() not found` error
@@ -56,6 +56,9 @@ set(SOURCE_FILES
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_PATH})
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
+
+target_link_libraries(${TARGET_NAME} gcc m)
+
 
 # Targets for make firmware in different formats
 set(BIN_TARGET "${EXECUTABLE_OUTPUT_PATH}/${TARGET_NAME}.bin")
